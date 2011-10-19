@@ -1,0 +1,15 @@
+#!perl
+use strict;
+my $counter = 0;
+sub {
+    my $r = shift;
+    my $n = ++$counter;
+    $r->send_response(200, [
+        'Content-Type' => 'text/html',
+        'Connection' => 'close',
+    ], [\sprintf(<<"...",$n)]);
+<h1>Feersum Example Stackato App</h1>
+
+<h3>You are visitor # 0x%08x</h3>
+...
+};
