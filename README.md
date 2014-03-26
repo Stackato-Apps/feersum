@@ -1,3 +1,7 @@
 #Feersum
 
-Currently, this demo is not working.
+A simple counter app using Feersum as the server.
+
+## Deploying to Stackato
+
+    stackato push -n
