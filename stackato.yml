@@ -1,9 +1,5 @@
 name: feersum
 
-processes:
-  web: feersum --listen $VCAP_APP_HOST:$VCAP_APP_PORT --native app.feersum
+buildpack: https://github.com/ActiveState/stackato-buildpack-perl.git
 
 mem: 64M
-
-framework:
-  type: perl
