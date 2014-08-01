@@ -1,5 +1,0 @@
-name: feersum
-
-buildpack: https://github.com/ActiveState/stackato-buildpack-perl.git
-
-mem: 64M
