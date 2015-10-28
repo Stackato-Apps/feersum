@@ -2,6 +2,6 @@
 
 A simple counter app using Feersum as the server.
 
-## Deploying to Stackato
+## Deploying to HPE Helion Stackato
 
     stackato push -n

@@ -8,7 +8,7 @@ sub {
         'Content-Type' => 'text/html',
         'Connection' => 'close',
     ], [\sprintf(<<"...",$n)]);
-<h1>Feersum Example Stackato App</h1>
+<h1>Feersum Example HPE Helion Stackato App</h1>
 
 <h3>You are visitor # 0x%08x</h3>
 ...
